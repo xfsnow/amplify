@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyrn-dev-20190529030652-authRole",
+            "UnauthRoleArn": "arn:aws:iam::879888516627:role/amplifyrn-dev-20190529030652-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::879888516627:role/amplifyrn-dev-20190529030652-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplifyrn-dev-20190529030652-deployment",
+            "UnauthRoleName": "amplifyrn-dev-20190529030652-unauthRole",
+            "StackName": "amplifyrn-dev-20190529030652",
+            "StackId": "arn:aws:cloudformation:us-west-2:879888516627:stack/amplifyrn-dev-20190529030652/ceaec3c0-81be-11e9-a2e1-028572da108e"
+        },
+        "categories": {
+            "auth": {
+                "cognitod45150f6": {}
+            }
+        }
+    }
+}
