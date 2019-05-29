@@ -1,0 +1,1 @@
+Amplify React Native App.
