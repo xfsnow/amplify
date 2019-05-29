@@ -1,1 +1,2 @@
 Amplify React Native App.
+
