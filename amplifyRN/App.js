@@ -39,7 +39,8 @@ export default class App extends React.Component {
     render() {
       return (
         <View style={styles.container}>
-          <Text>Welcome to your React Native App with Amplify!</Text>
+          <Text style={styles.h1}>Welcome to your React Native App with Amplify!</Text>
+          <Text style={styles.h1} >This is environment "dev".</Text>
           <Button title="Generate Analytics Event" onPress={this.handleAnalyticsClick} />
           {this.state.resultHtml}
         </View>
@@ -53,6 +54,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  h1: {
+    fontSize: 30,
   },
   link: {
     color: 'blue'
