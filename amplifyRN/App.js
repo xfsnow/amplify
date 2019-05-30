@@ -39,8 +39,8 @@ export default class App extends React.Component {
     render() {
       return (
         <View style={styles.container}>
-          <Text style={styles.h1}>Welcome to your React Native App with Amplify!</Text>
-          <Text style={styles.h1} >This is environment "dev".</Text>
+          <Text>Welcome to your React Native App with Amplify!</Text>
+          <Text style={styles.h1} >This is environment "test".</Text>
           <Button title="Generate Analytics Event" onPress={this.handleAnalyticsClick} />
           {this.state.resultHtml}
         </View>
