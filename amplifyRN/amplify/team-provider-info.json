@@ -15,5 +15,39 @@
                 "cognitod45150f6": {}
             }
         }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyrn-test-20190530095258-authRole",
+            "UnauthRoleArn": "arn:aws:iam::879888516627:role/amplifyrn-test-20190530095258-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::879888516627:role/amplifyrn-test-20190530095258-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplifyrn-test-20190530095258-deployment",
+            "UnauthRoleName": "amplifyrn-test-20190530095258-unauthRole",
+            "StackName": "amplifyrn-test-20190530095258",
+            "StackId": "arn:aws:cloudformation:us-west-2:879888516627:stack/amplifyrn-test-20190530095258/b4715a10-82c0-11e9-9545-0660270eccea"
+        },
+        "categories": {
+            "auth": {
+                "cognitod45150f6": {}
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyrn-prod-20190530095712-authRole",
+            "UnauthRoleArn": "arn:aws:iam::879888516627:role/amplifyrn-prod-20190530095712-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::879888516627:role/amplifyrn-prod-20190530095712-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplifyrn-prod-20190530095712-deployment",
+            "UnauthRoleName": "amplifyrn-prod-20190530095712-unauthRole",
+            "StackName": "amplifyrn-prod-20190530095712",
+            "StackId": "arn:aws:cloudformation:us-west-2:879888516627:stack/amplifyrn-prod-20190530095712/4c2baae0-82c1-11e9-9166-0650fec6e554"
+        },
+        "categories": {
+            "auth": {
+                "cognitod45150f6": {}
+            }
+        }
     }
 }

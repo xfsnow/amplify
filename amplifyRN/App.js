@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  h1: {
+   h1: {
     fontSize: 30,
   },
   link: {
