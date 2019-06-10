@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"rn": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
