@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "rncloud-dev-20190610025235-authRole",
+            "UnauthRoleArn": "arn:aws:iam::879888516627:role/rncloud-dev-20190610025235-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::879888516627:role/rncloud-dev-20190610025235-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "rncloud-dev-20190610025235-deployment",
+            "UnauthRoleName": "rncloud-dev-20190610025235-unauthRole",
+            "StackName": "rncloud-dev-20190610025235",
+            "StackId": "arn:aws:cloudformation:us-west-2:879888516627:stack/rncloud-dev-20190610025235/cd3c28f0-8b2a-11e9-9ccc-06899a6da890"
+        },
+        "categories": {
+            "auth": {
+                "rn": {}
+            }
+        }
+    }
+}
